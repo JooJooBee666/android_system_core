@@ -53,7 +53,9 @@
 #define SYSFS_PREFIX    "/sys"
 static const char *firmware_dirs[] = { "/etc/firmware",
                                        "/vendor/firmware",
-                                       "/firmware/image" };
+                                       "/firmware/image",
+                                       "/data/gbfirmware",
+                                       "/data/adspd" };
 
 extern struct selabel_handle *sehandle;
 
